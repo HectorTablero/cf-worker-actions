@@ -19,7 +19,6 @@ enabled = false
   head_sampling_rate = 1
   invocation_logs = true
 
-
 [[kv_namespaces]]
 id = "470b34600efb446da949928531359e2e"
 binding = "ACTIONS_KV"
@@ -35,3 +34,4 @@ binding = "UTILS"
 service = "utils"
 environment = "production"
 entrypoint = "UtilsWorker"
+
